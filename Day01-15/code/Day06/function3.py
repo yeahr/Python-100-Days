@@ -27,3 +27,5 @@ print(fruits[slice(1, 3)])
 fruits2 = list(filter(myfilter, fruits))
 print(fruits)
 print(fruits2)
+
+print(ord('王'))

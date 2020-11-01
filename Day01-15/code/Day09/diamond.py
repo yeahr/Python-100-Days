@@ -36,10 +36,12 @@ class E(D):
         super().foo()
         super(B, self).foo()
         super(C, self).foo()
-
+       # super(B).foo()
+        super(C).foo()
 
 if __name__ == '__main__':
     d = D()
     d.foo()
     e = E()
     e.foo()
+    print(E.mro())
